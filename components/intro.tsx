@@ -99,7 +99,7 @@ export default function Intro() {
                 outline-none focus:scale-110
                 hover:scale-110 active:scale-105
                 transition cursor-pointer
-                border border-black/10' href='/CV.pdf'
+                border-black dark:bg-white/10' href='/CV.pdf'
             >
                 Download CV <HiDownload className='opacity-60
                 group-hover:translate-y-1 transition' download/>
@@ -109,7 +109,7 @@ export default function Intro() {
                 focus:scale-[1.15] hover:text-gray-950
                 hover:scale-[1.15] active:scale-105
                 transition cursor-pointer
-                border border-black/10'
+                border-black dark:bg-white/10 dark:text-white/60'
                 href='http://linkedin.com'
                 target='_blank'>
                 <BsLinkedin/>
@@ -120,7 +120,7 @@ export default function Intro() {
                 hover:scale-[1.15] active:scale-105
                 hover:text-gray-950
                 transition cursor-pointer
-                border border-black/10'
+                border-black dark:bg-white/10 dark:text-white/60'
                 href='http://github.com'
                 target='_blank'>
                 <FaGithubSquare/>
