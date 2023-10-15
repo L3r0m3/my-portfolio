@@ -72,7 +72,7 @@ export const projectsData = [
   {
     title: "Airbnb-Clone",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "Mongodb"],
     imageUrl: airbnbClone,
     siteUrl: '',
