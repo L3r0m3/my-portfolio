@@ -64,7 +64,7 @@ export default function Intro() {
             animate={{ opacity: 1, y: 0 }}
         >
             <span className="font-bold">Hello, I'm Lerome.</span> I'm a{" "}
-            <span className="font-bold">junior full-stack developer</span> with{" "}
+            <span className="font-bold">Junior Full-Stack Developer</span> with{" "}
             <span className="font-bold">1 year</span> of experience. I enjoy
             building <span className="italic">sites & apps</span>. My focus is{" "}
             <span className="underline">React(Next.js)</span>.
@@ -99,7 +99,7 @@ export default function Intro() {
                 outline-none focus:scale-110
                 hover:scale-110 active:scale-105
                 transition cursor-pointer
-                border-black dark:bg-white/10' href='/CV.pdf'
+                border-black dark:bg-white/10' href='/lebenslauf_zeugnisse.pdf'
             >
                 Download CV <HiDownload className='opacity-60
                 group-hover:translate-y-1 transition' download/>

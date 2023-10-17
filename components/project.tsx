@@ -2,6 +2,7 @@
 
 import { projectsData } from "@/lib/data";
 import { motion, useScroll, useTransform } from "framer-motion";
+import Link from "next/link";
 import { useRef } from "react";
 import Image from "next/image";
 
@@ -34,6 +35,8 @@ export default function Project({siteUrl, title, description, tags, imageUrl}: P
             relative sm:h-[20rem]
             sm:group-even:pl-8 hover:bg-gray-200 transition
             dark:text-white dark:bg-white/10 dark:hover:bg-white/20'>
+                {projectsData.map((urlData) => (
+                <Link href={urlData.siteUrl}>
             <div className='
                 pt-4 pb-7 px-5 sm:pl-10
                 sm:pr-2 sm:pt-10
@@ -82,6 +85,8 @@ export default function Project({siteUrl, title, description, tags, imageUrl}: P
                     group-even:-left-40'
                 />
             </div>
+            </Link>
+        ))}
         </section>
     </motion.div>
   )

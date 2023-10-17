@@ -34,7 +34,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated Meta Front-End Developer",
+    title: "Meta Front-End Developer",
     location: "Online, Coursera",
     description:
       "I graduated after 6 months of studying and now looking for a job.",
@@ -50,8 +50,7 @@ export const projectsData = [
       "This is a capstone-project I worked on during the Meta Frontend-Developer certification course.",
     tags: ["React", "Figma", "Chakra-UI"],
     imageUrl: littleLem,
-    siteUrl: 'http://Little-lemon-mu.vercel.app',
-    id: 1,
+    siteUrl: 'http://little-lemon-mu.vercel.app'
   },
   {
     title: "Airbnb-Clone",
@@ -59,8 +58,7 @@ export const projectsData = [
       "",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "Mongodb"],
     imageUrl: airbnbClone,
-    siteUrl: '',
-    id: 2
+    siteUrl: 'http://'
   },
 ] as const;
 

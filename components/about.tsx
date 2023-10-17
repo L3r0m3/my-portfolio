@@ -22,8 +22,8 @@ export default function About() {
         id='about'>
         <SectionHeading>About me</SectionHeading>
         <p className='mb-3'>
-            I'm a <span className='font-medium'>junior full-stack developer</span>
-            with a <span className='font-medium'>Meta Frontend Developer certification</span>,{' '}
+            I'm a <span className='font-medium'>Junior Full-Stack Developer</span>{' '}
+            with a <span className='font-medium'>Meta Frontend Developer Certification</span>,{' '}
             <span className='italic'>driven by a deep passion for programming and problem-solving.</span> {' '}
             I'm constantly motivated to embrace new technologies and expand my skill set.
             My core stack includes <span className='font-medium'>React, Next.js, Node.js, and MongoDB</span>,
@@ -32,9 +32,9 @@ export default function About() {
         <p>
             Beyond coding, I find balance in life through activities like jogging, Muay Thai,
             meditation, and indulging in my love for movies.{' '}
-            <span className='underline'>I thrive</span> on turning
+            <span className='underline'>I thrive</span> on turning{' '}
             <span className='font-medium'>ideas into functional and user-friendly applications</span> {' '}
-            and am <span className='italic'>always eager to take on new challenges</span>.
+            and am <span className='italic'>always eager to take on new challenges</span>.{' '}
             <span className='underline'>Join me</span> on my journey as I explore
             the ever-evolving world of technology and continue to grow as a developer.
         </p>
