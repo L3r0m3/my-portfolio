@@ -58,7 +58,7 @@ export const projectsData = [
       "",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "Mongodb"],
     imageUrl: airbnbClone,
-    siteUrl: 'http://'
+    siteUrl: 'http://little-lemon-mu.vercel.app'
   },
 ] as const;
 
