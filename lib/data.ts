@@ -3,7 +3,7 @@ import React from "react";
 // import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import littleLem from "@/public/images/little-lemon-screensh2.png";
-import airbnbClone from "@/public/images/airbnb-clone1.png";
+// import airbnbClone from "@/public/images/airbnb-clone1.png";
 
 export const links = [
   {
@@ -52,15 +52,15 @@ export const projectsData = [
     imageUrl: littleLem,
     siteUrl: 'http://little-lemon-mu.vercel.app',
   },
-  {
-    title: "Airbnb-Clone",
-    description:
-      "",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "Mongodb"],
-    imageUrl: airbnbClone,
-    siteUrl: 'http://little-lemon-mu.vercel.app',
+  // {
+  //   title: "Airbnb-Clone",
+  //   description:
+  //     "",
+  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "Mongodb"],
+  //   imageUrl: airbnbClone,
+  //   siteUrl: 'https://www.linkedin.com/in/lerome-brown-1802931b9',
 
-  },
+  // },
 ] as const;
 
 export const skillsData = [

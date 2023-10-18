@@ -36,8 +36,7 @@ export default function Project({title, description, tags, imageUrl}: ProjectPro
             sm:group-even:pl-8 hover:bg-gray-200 transition
             dark:text-white dark:bg-white/10 dark:hover:bg-white/20'>
                 {projectsData.map((urlData, index) => (
-                <Link key={index} href={urlData.siteUrl}></Link>
-                ))}
+                <Link key={index} href={urlData.siteUrl}>
             <div className='
                 pt-4 pb-7 px-5 sm:pl-10
                 sm:pr-2 sm:pt-10
@@ -86,6 +85,8 @@ export default function Project({title, description, tags, imageUrl}: ProjectPro
                     group-even:-left-40'
                 />
             </div>
+            </Link>
+                ))}
         </section>
     </motion.div>
   )
