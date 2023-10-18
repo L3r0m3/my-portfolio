@@ -30,8 +30,7 @@ export default function About() {
             and I'm well-versed in TypeScript and Prisma.
         </p>
         <p>
-            Beyond coding, I find balance in life through activities like jogging, Muay Thai,
-            meditation, and indulging in my love for movies.{' '}
+            Beyond coding, I find balance in life through activities like jogging, Muay Thai and meditation.{' '}
             <span className='underline'>I thrive</span> on turning{' '}
             <span className='font-medium'>ideas into functional and user-friendly applications</span> {' '}
             and am <span className='italic'>always eager to take on new challenges</span>.{' '}
