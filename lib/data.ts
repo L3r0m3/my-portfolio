@@ -50,7 +50,7 @@ export const projectsData = [
       "This is a capstone-project I worked on during the Meta Frontend-Developer certification course.",
     tags: ["React", "Figma", "Chakra-UI"],
     imageUrl: littleLem,
-    siteUrl: 'http://little-lemon-mu.vercel.app'
+    siteUrl: 'http://little-lemon-mu.vercel.app',
   },
   {
     title: "Airbnb-Clone",
@@ -58,7 +58,8 @@ export const projectsData = [
       "",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "Mongodb"],
     imageUrl: airbnbClone,
-    siteUrl: 'http://little-lemon-mu.vercel.app'
+    siteUrl: 'http://little-lemon-mu.vercel.app',
+
   },
 ] as const;
 

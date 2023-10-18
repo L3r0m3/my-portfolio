@@ -110,7 +110,7 @@ export default function Intro() {
                 hover:scale-[1.15] active:scale-105
                 transition cursor-pointer
                 border-black dark:bg-white/10 dark:text-white/60'
-                href='http://linkedin.com'
+                href='https://www.linkedin.com/in/lerome-brown-1802931b9'
                 target='_blank'>
                 <BsLinkedin/>
             </a>
@@ -121,7 +121,7 @@ export default function Intro() {
                 hover:text-gray-950
                 transition cursor-pointer
                 border-black dark:bg-white/10 dark:text-white/60'
-                href='http://github.com'
+                href='https://github.com/L3r0m3'
                 target='_blank'>
                 <FaGithubSquare/>
             </a>

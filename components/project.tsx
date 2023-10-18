@@ -9,7 +9,7 @@ import Image from "next/image";
 
 type ProjectProps = (typeof projectsData)[number];
 
-export default function Project({siteUrl, title, description, tags, imageUrl}: ProjectProps) {
+export default function Project({title, description, tags, imageUrl}: ProjectProps) {
     const ref = useRef<HTMLDivElement>(null);
     const { scrollYProgress} = useScroll({
         target: ref,
@@ -35,8 +35,9 @@ export default function Project({siteUrl, title, description, tags, imageUrl}: P
             relative sm:h-[20rem]
             sm:group-even:pl-8 hover:bg-gray-200 transition
             dark:text-white dark:bg-white/10 dark:hover:bg-white/20'>
-                {projectsData.map((urlData,index) => (
-                <Link key={index} href={urlData.siteUrl}>
+                {projectsData.map((urlData, index) => (
+                <Link key={index} href={urlData.siteUrl}></Link>
+                ))}
             <div className='
                 pt-4 pb-7 px-5 sm:pl-10
                 sm:pr-2 sm:pt-10
@@ -85,8 +86,6 @@ export default function Project({siteUrl, title, description, tags, imageUrl}: P
                     group-even:-left-40'
                 />
             </div>
-            </Link>
-        ))}
         </section>
     </motion.div>
   )
