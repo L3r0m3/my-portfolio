@@ -99,7 +99,7 @@ export default function Intro() {
                 outline-none focus:scale-110
                 hover:scale-110 active:scale-105
                 transition cursor-pointer
-                border-black dark:bg-white/10' href='/lebenslauf_zeugnisse.pdf'
+                border-black dark:bg-white/10' href='/lerome_brown_cv.pdf'
             >
                 Download CV <HiDownload className='opacity-60
                 group-hover:translate-y-1 transition' download/>
