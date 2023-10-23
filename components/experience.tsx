@@ -10,6 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from '@/context/theme.context';
+import Link from "next/link";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
@@ -17,6 +18,8 @@ export default function Experience() {
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
+      {experiencesData.map((urlData, index) => (
+        <Link key={index} href={urlData.certUrl}>
       <SectionHeading>Qualification</SectionHeading>
       <VerticalTimeline lineColor="" animate={true}>
         {experiencesData.map((item, index) => (
@@ -54,6 +57,8 @@ export default function Experience() {
           </React.Fragment>
         ))}
       </VerticalTimeline>
+      </Link>
+      ))}
     </section>
   );
 }

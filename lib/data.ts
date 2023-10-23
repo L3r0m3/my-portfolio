@@ -40,6 +40,7 @@ export const experiencesData = [
       "I graduated after 6 months of studying and now looking for a job.",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
+    certUrl: "https://www.coursera.org/account/accomplishments/specialization/certificate/FK7QNSNRPG6S"
   },
 ] as const;
 
