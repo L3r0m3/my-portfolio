@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Architecting with Google Compute Engine",
     location: "Online, Coursera",
     description:
-      "Lorem ipsum...",
+      "",
     icon: React.createElement(LuGraduationCap),
     date: "2020",
     certUrl: "https://www.coursera.org/account/accomplishments/specialization/certificate/CP3YQDSMXWSS"
