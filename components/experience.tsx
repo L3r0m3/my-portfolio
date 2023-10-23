@@ -18,8 +18,6 @@ export default function Experience() {
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
-      {experiencesData.map((urlData, index) => (
-        <Link key={index} href={urlData.certUrl}>
       <SectionHeading>Qualification</SectionHeading>
       <VerticalTimeline lineColor="" animate={true}>
         {experiencesData.map((item, index) => (
@@ -47,18 +45,17 @@ export default function Experience() {
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
                 fontSize: "1.5rem",
               }}
-            >
+            > <Link href={item.certUrl} key={index}>
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
               </p>
+              </Link>
             </VerticalTimelineElement>
           </React.Fragment>
         ))}
       </VerticalTimeline>
-      </Link>
-      ))}
     </section>
   );
 }

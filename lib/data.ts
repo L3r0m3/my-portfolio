@@ -42,6 +42,15 @@ export const experiencesData = [
     date: "2023",
     certUrl: "https://www.coursera.org/account/accomplishments/specialization/certificate/FK7QNSNRPG6S"
   },
+  {
+    title: "Architecting with Google Compute Engine",
+    location: "Online, Coursera",
+    description:
+      "Lorem ipsum...",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020",
+    certUrl: "https://www.coursera.org/account/accomplishments/specialization/certificate/CP3YQDSMXWSS"
+  }
 ] as const;
 
 export const projectsData = [
@@ -52,16 +61,7 @@ export const projectsData = [
     tags: ["React", "Figma", "Chakra-UI"],
     imageUrl: littleLem,
     siteUrl: 'http://little-lemon-mu.vercel.app',
-  },
-  // {
-  //   title: "Airbnb-Clone",
-  //   description:
-  //     "",
-  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Prisma", "Mongodb"],
-  //   imageUrl: airbnbClone,
-  //   siteUrl: 'https://www.linkedin.com/in/lerome-brown-1802931b9',
-
-  // },
+  }
 ] as const;
 
 export const skillsData = [
