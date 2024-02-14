@@ -7,10 +7,10 @@ import Link from 'next/link';
 import clsx from 'clsx';
 import { useActiveSectionContext } from '@/context/active-section-context';
 
-// Component function
+
 export default function Header() {
 
-   const {activeSection, setActiveSection, setTimeOfLastClick} = useActiveSectionContext()
+    const {activeSection, setActiveSection, setTimeOfLastClick} = useActiveSectionContext()
 
   return (
     <header className='z-[999] relative'>
@@ -52,7 +52,6 @@ export default function Header() {
                             }}
                         >
                             {link.name}
-                            // If the link's name is the active section, add a background
                             {link.name === activeSection && (
                                 <motion.span className='bg-gray-100
                                     rounded-full absolute

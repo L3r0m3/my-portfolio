@@ -14,16 +14,15 @@ import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from '@/context/theme.context';
 import Link from "next/link";
 
-// Component function
+{/* Component function */}
 export default function Qualification() {
 
-  // Get reference to detect section in view
+  {/* Get reference to detect section in view*/}
   const { ref } = useSectionInView("Experience");
 
-  // Get theme from context
+ {/* Get theme from context */}
   const { theme } = useTheme();
 
-  // Return JSX
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>Qualification</SectionHeading>
@@ -53,7 +52,7 @@ export default function Qualification() {
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
                 fontSize: "1.5rem",
               }}
-            > <Link href={item.certUrl} key={index}> // create a link to the certification
+            > <Link href={item.certUrl} key={index}>
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
