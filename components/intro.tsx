@@ -1,5 +1,9 @@
+// Intro component renders the introduction section
+
+// Use client side rendering
 'use client';
 
+// Import required React components and hooks
 import { motion } from 'framer-motion'
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
@@ -9,7 +13,10 @@ import React from 'react'
 import { FaGithubSquare } from 'react-icons/fa';
 import { useSectionInView } from '@/lib/hooks';
 
+// Component function
 export default function Intro() {
+
+    // Get reference to detect section in view
     const { ref } = useSectionInView('Home', 0.5);
 
   return (
@@ -99,7 +106,7 @@ export default function Intro() {
                 outline-none focus:scale-110
                 hover:scale-110 active:scale-105
                 transition cursor-pointer
-                border-black dark:bg-white/10' href='/lerome_browns_cv.pdf'
+                border-black dark:bg-white/10' href='/lerome_brown_cv.pdf'
             >
                 Download CV <HiDownload className='opacity-60
                 group-hover:translate-y-1 transition' download/>

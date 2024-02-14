@@ -1,17 +1,20 @@
+// use client side rendering
 'use client';
 
+// Import required React components and hooks
 import React from 'react'
 import { motion } from 'framer-motion';
 import SectionHeading from './section-heading';
 import { useSectionInView } from '@/lib/hooks';
 
+// Component function
 export default function About() {
-
+  // Get reference to detect section in view
   const { ref } = useSectionInView('About');
 
   return (
-    <motion.section
-        ref={ref}
+    <motion.section // Wrap the section in a motion component to animate on scroll
+        ref={ref} // Pass the reference to the section
         className='
         mb-28 max-w-[45rem]
         text-center leading-8

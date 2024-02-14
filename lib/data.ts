@@ -1,9 +1,7 @@
 import React from "react";
-// import { CgWorkAlt } from "react-icons/cg";
-// import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import littleLem from "@/public/images/little-lemon-screensh2.png";
-// import airbnbClone from "@/public/images/airbnb-clone1.png";
+
 
 export const links = [
   {
@@ -32,7 +30,16 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+export const qualificationsData = [
+  {
+    title: "Meta Back-End Developer",
+    location: "Online, Coursera",
+    description:
+    "",
+    icon: React.createElement(LuGraduationCap),
+    date: "Since Okt. 2023 in progress",
+    certUrl: "..."
+  },
   {
     title: "Meta Front-End Developer",
     location: "Online, Coursera",

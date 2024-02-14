@@ -1,5 +1,7 @@
+// Use client side rendering
 "use client";
 
+// Import required React components and hooks
 import React from "react";
 import SectionHeading from "./section-heading";
 import {
@@ -7,22 +9,29 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { experiencesData } from "@/lib/data";
+import { qualificationsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from '@/context/theme.context';
 import Link from "next/link";
 
-export default function Experience() {
+// Component function
+export default function Qualification() {
+
+  // Get reference to detect section in view
   const { ref } = useSectionInView("Experience");
+
+  // Get theme from context
   const { theme } = useTheme();
 
+  // Return JSX
   return (
+    // Wrap the section in a motion component to animate on scroll
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>Qualification</SectionHeading>
       <VerticalTimeline lineColor="" animate={true}>
-        {experiencesData.map((item, index) => (
+        {qualificationsData.map((item, index) => ( // map through the qualifications data
           <React.Fragment key={index}>
-            <VerticalTimelineElement
+            <VerticalTimelineElement // create a timeline element
               visible={true}
               contentStyle={{
                 background:
@@ -36,7 +45,7 @@ export default function Experience() {
                 borderRight:
                   theme === "light"
                     ? "0.4rem solid #9ca3af"
-                    : "0.4rem solid rgba(255, 255, 255, 0.5)",
+                    : "0.4rem sold rgba(255, 255, 255, 0.5)",
               }}
               date={item.date}
               icon={item.icon}
@@ -45,7 +54,7 @@ export default function Experience() {
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
                 fontSize: "1.5rem",
               }}
-            > <Link href={item.certUrl} key={index}>
+            > <Link href={item.certUrl} key={index}> // create a link to the certification
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
