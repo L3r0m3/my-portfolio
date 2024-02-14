@@ -16,7 +16,6 @@ import { useSectionInView } from '@/lib/hooks';
 // Component function
 export default function Intro() {
 
-    // Get reference to detect section in view
     const { ref } = useSectionInView('Home', 0.5);
 
   return (

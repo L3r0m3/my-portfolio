@@ -12,13 +12,12 @@ import toast from "react-hot-toast";
 
 // Component function
 export default function Contact() {
-  // Get reference to detect section in view
   const { ref } = useSectionInView("Contact");
 
   return (
-    <motion.section // Wrap the section in a motion component to animate on scroll
+    <motion.section
       id="contact"
-      ref={ref} // Pass reference to the section
+      ref={ref}
       className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
       initial={{
         opacity: 0,
@@ -45,7 +44,6 @@ export default function Contact() {
 
       <form
         className="mt-10 flex flex-col dark:text-black"
-        // Pass the reference to the form
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
 

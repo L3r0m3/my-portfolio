@@ -25,13 +25,12 @@ export default function Qualification() {
 
   // Return JSX
   return (
-    // Wrap the section in a motion component to animate on scroll
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>Qualification</SectionHeading>
       <VerticalTimeline lineColor="" animate={true}>
-        {qualificationsData.map((item, index) => ( // map through the qualifications data
+        {qualificationsData.map((item, index) => (
           <React.Fragment key={index}>
-            <VerticalTimelineElement // create a timeline element
+            <VerticalTimelineElement
               visible={true}
               contentStyle={{
                 background:
