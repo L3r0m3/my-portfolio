@@ -116,7 +116,7 @@ export default function Intro() {
                 hover:scale-[1.15] active:scale-105
                 transition cursor-pointer
                 border-black dark:bg-white/10 dark:text-white/60'
-                href='https://www.linkedin.com/in/lerome-brown-1802931b9'
+                href='https://www.linkedin.com/in/lerome-brown'
                 target='_blank'>
                 <BsLinkedin/>
             </a>
