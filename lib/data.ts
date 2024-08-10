@@ -64,7 +64,7 @@ export const projectsData = [
   {
     title: "Pokédex",
     description:
-      "This is a Pokédex site I created where I learned how to fetch data externaly and working with API, prefetching data, pagination and infinite scroll.",
+      "This is a Pokédex site I created where I learned how to fetch data externaly and working with API, prefetching data, pagination, infinite scroll and searchbar.",
     tags: ["Next.js", "Typescript", "Sass", "react-query"],
     imageUrl: pokédex,
     siteUrl: "https://pokedex-nine-coral.vercel.app/",
