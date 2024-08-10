@@ -28,8 +28,6 @@ export default function About() {
             with a <span className='font-medium'>Meta Frontend Developer Certification</span>,{' '}
             <span className='italic'>driven by a deep passion for programming and problem-solving.</span> {' '}
             I'm constantly motivated to embrace new technologies and expand my skill set.
-            My core stack includes <span className='font-medium'>React, Next.js, Node.js, and MongoDB</span>,
-            and I'm well-versed in TypeScript and Prisma.
         </p>
         <p>
             Beyond coding, I find balance in life through activities like jogging, Muay Thai and meditation.{' '}

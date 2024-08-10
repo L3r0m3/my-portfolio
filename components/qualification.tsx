@@ -50,7 +50,7 @@ export default function Qualification() {
               iconStyle={{
                 background:
                   theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
-                fontSize: "1.5rem",
+                fontSize: "1.5rem"
               }}
             > <Link href={item.certUrl} key={index}>
               <h3 className="font-semibold capitalize">{item.title}</h3>
