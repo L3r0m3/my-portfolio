@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPaperPlane } from "react-icons/fa";
+/** @ts-expect-error */
 import { experimental_useFormStatus as useFormStatus } from "react-dom";
 
 export default function SubmitBtn() {
