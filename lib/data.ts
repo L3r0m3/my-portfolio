@@ -1,7 +1,7 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import littleLem from "@/public/images/little-lemon-screensh2.png";
-import pokédex from "@/public/images/pokédex.png";
+import pokedex from "@/public/images/pokedex.png";
 
 export const links = [
   {
@@ -66,7 +66,7 @@ export const projectsData = [
     description:
       "This is a Pokédex site I created where I learned how to fetch data externaly and working with API, prefetching data, pagination, infinite scroll and searchbar.",
     tags: ["Next.js", "Typescript", "Sass", "react-query"],
-    imageUrl: pokédex,
+    imageUrl: pokedex,
     siteUrl: "https://pokedex-nine-coral.vercel.app/",
   },
   {
