@@ -67,7 +67,7 @@ export const projectsData = [
       "This is a Pokédex site I created where I learned how to fetch data externaly and working with API, prefetching data, pagination, infinite scroll and searchbar.",
     tags: ["Next.js", "Typescript", "Sass", "react-query"],
     imageUrl: pokedex,
-    siteUrl: "https://pokedex-nine-coral.vercel.app/",
+    siteUrl: "https://pokedex.leromebrown.com/",
   },
   {
     title: "Little-Lemon",
@@ -75,7 +75,7 @@ export const projectsData = [
       "This is a capstone-project I worked on during the Meta Frontend-Developer certification course.",
     tags: ["React", "Figma", "Chakra-UI"],
     imageUrl: littleLem,
-    siteUrl: "http://little-lemon-mu.vercel.app",
+    siteUrl: "https://little-lemon.leromebrown.com",
   },
 ] as const;
 
