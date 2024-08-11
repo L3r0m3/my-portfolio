@@ -1,6 +1,6 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
-import littleLem from "@/public/images/little-lemon-screensh2.png";
+import littleLemon from "@/public/images/little-lemon-screensh2.png";
 import pokedex from "@/public/images/pokedex.png";
 
 export const links = [
@@ -64,7 +64,7 @@ export const projectsData = [
   {
     title: "Pokédex",
     description:
-      "This is a Pokédex site I created where I learned how to fetch data externaly and working with API, prefetching data, pagination, infinite scroll and searchbar.",
+      "This is a Pokédex site I created where I learned how to fetch data externaly and working with the Pokémon API, prefetching data, pagination, infinite scroll and searchbar.",
     tags: ["Next.js", "Typescript", "Sass", "react-query"],
     imageUrl: pokedex,
     siteUrl: "https://pokedex.leromebrown.com/",
@@ -74,7 +74,7 @@ export const projectsData = [
     description:
       "This is a capstone-project I worked on during the Meta Frontend-Developer certification course.",
     tags: ["React", "Figma", "Chakra-UI"],
-    imageUrl: littleLem,
+    imageUrl: littleLemon,
     siteUrl: "https://little-lemon.leromebrown.com",
   },
 ] as const;
