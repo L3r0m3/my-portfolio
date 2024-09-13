@@ -32,14 +32,6 @@ export const links = [
 
 export const qualificationsData = [
   {
-    title: "Meta Back-End Developer",
-    location: "Online, Coursera",
-    description: "",
-    icon: React.createElement(LuGraduationCap),
-    date: "Since Okt. 2023 in progress",
-    certUrl: "...",
-  },
-  {
     title: "Meta Front-End Developer",
     location: "Online, Coursera",
     description:
