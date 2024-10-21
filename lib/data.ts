@@ -57,12 +57,18 @@ export const projectsData = [
   {
     title: "airclone",
     description:
-      "Rental Home Project! This cutting-edge web application was built using the latest tech stack (Next.js, TypeScript, Tailwind CSS) and leverages Prisma and MongoDB for database management. With features like cloud-based image hosting with Cloudinary and secure authentication using Next-auth, this project showcases my expertise in building robust, scalable applications.",
+      "Rental Home Project! This cutting-edge web application was built using the latest tech stack (Next.js, TypeScript, Tailwind CSS) and leverages Prisma and MongoDB for database management.",
     tags: [
       "Next.js",
       "Typescript",
       "Tailwind",
-      "Next-auth, Mongodb, Prisma, Cloudinary, Axios, Zustand, ...",
+      "Next-auth",
+      "Mongodb",
+      "Prisma",
+      "Cloudinary",
+      "Axios",
+      "Zustand",
+      "...",
     ],
     imageUrl: airclone,
     siteUrl: "https://airclone.leromebrown.com/",
