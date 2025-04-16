@@ -2,7 +2,6 @@ import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import littleLemon from "@/public/images/little-lemon-screensh2.png";
 import pokedex from "@/public/images/pokedex.png";
-import airclone from "@/public/images/airclone_screensh.png";
 
 export const links = [
   {
@@ -54,25 +53,6 @@ export const qualificationsData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "airclone",
-    description:
-      "Rental Home Project! This cutting-edge web application was built using the latest tech stack (Next.js, TypeScript, Tailwind CSS) and leverages Prisma and MongoDB for database management.",
-    tags: [
-      "Next.js",
-      "Typescript",
-      "Tailwind",
-      "Next-auth",
-      "Mongodb",
-      "Prisma",
-      "Cloudinary",
-      "Axios",
-      "Zustand",
-      "...",
-    ],
-    imageUrl: airclone,
-    siteUrl: "https://airclone.leromebrown.com/",
-  },
   {
     title: "Pokédex",
     description:
