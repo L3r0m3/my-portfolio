@@ -2,6 +2,7 @@ import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import littleLemon from "@/public/images/little-lemon-screensh2.png";
 import pokedex from "@/public/images/pokedex.png";
+import shuu from "@/public/images/shuu.png";
 
 export const links = [
   {
@@ -53,6 +54,14 @@ export const qualificationsData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Weather App",
+    description:
+      "This is a simple weather app I created to learn how to fetch data from an external API, working with the OpenWeatherMap API.",
+    tags: ["Next.js", "Typescript", "Tailwind", "react-query"],
+    imageUrl: shuu,
+    siteUrl: "https://shuu.leromebrown.com/",
+  },
   {
     title: "Pokédex",
     description:
