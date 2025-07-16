@@ -25,7 +25,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I'm a <span className="font-medium">Junior Frontend Developer</span>{" "}
+        I'm a <span className="font-medium">Junior Fullstack Developer</span>{" "}
         with a{" "}
         <span className="font-medium">
           Meta Frontend Developer Certification
