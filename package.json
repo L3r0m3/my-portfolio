@@ -20,7 +20,8 @@
     "react-icons": "^4.11.0",
     "react-intersection-observer": "^9.5.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "resend": "^4.6.0"
+    "resend": "^0.16.0",
+    "sharp": "^0.34.3"
   },
   "devDependencies": {
     "@types/node": "latest",
@@ -35,6 +36,6 @@
     "typescript": "latest"
   },
   "engines": {
-    "node": "22.x"
+    "node": "22.0.0"
   }
 }
